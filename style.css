@@ -1,0 +1,41 @@
+* {
+    font-family: Inter;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    height: 400px;
+    margin-left: 280px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+.font {
+    font-family: Inter;
+    background-color: hsl(244, 38%, 16%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 60px;
+}
+.H {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2-container {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
