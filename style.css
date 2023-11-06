@@ -1,29 +1,47 @@
-* {
-    font-family: Inter;
-}
-
 body {
     background-color: hsl(233, 47%, 7%);
 }
-
+.font p{
+    font-family: Inter;
+    Font-size: 15px
+}
+.h2-container span{
+    font-family: Inter;
+    Font-size: 15px
+}
 .container {
     display: flex;
     width: 900px;
     height: 400px;
     margin-left: 280px;
     margin-top: 150px;
-    border-radius: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+}
+
+.insights {
+    color: hsl(277, 64%, 61%);
 }
 
 .font {
-    font-family: Inter;
+    
+    font-family: Lexend Deca;
     background-color: hsl(244, 38%, 16%);
     color: hsla(0, 0%, 100%, 0.75);
     padding: 60px;
 }
+
 .H {
     display: flex;
     justify-content: space-between;
+}
+
+.H h2 {
+    color: white;
 }
 
 .h2-container {
@@ -31,9 +49,20 @@ body {
     flex-direction: column;
 }
 
+.h2-container h2 {
+    margin-bottom: 5px;
+}
+
 img {
     width: 400px;
     height: 400px;
+    filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
+
+}
+.attribution{
+    color: white;
+    margin-top: 20px;
+    margin-left: 500px;
 }
 
 .attribution a {
