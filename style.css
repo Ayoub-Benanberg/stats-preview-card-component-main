@@ -19,7 +19,7 @@ body {
 
 .font {
     font-family: 'Inter';
-    width: 56%;
+    width: 50%;
     height: 100%;
     background-color: hsl(244, 38%, 16%);
     color: white;
@@ -64,7 +64,7 @@ body {
 }
 
 .img {
-    width: 40%;
+    width: 50%;
     height: 100%;
     filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
 }
