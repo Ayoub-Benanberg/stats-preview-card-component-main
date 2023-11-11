@@ -12,7 +12,7 @@ body {
     height: 350px;
     display: flex;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     margin-top: 10rem;
 }
@@ -64,9 +64,11 @@ body {
 }
 
 .img {
+    background-image: url('images/image-header-desktop.jpg');
+    background-size: cover;
     width: 50%;
     height: 100%;
-    filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
+    filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-124deg) saturate(500%) contrast(1);
 }
 
 .attribution {
