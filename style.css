@@ -1,35 +1,20 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.body {
     background-color: hsl(233, 47%, 7%);
 
 }
 
-.container {
-    width: 900px;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-top: 10rem;
-}
 
-.font {
+#font {
     font-family: 'Inter';
-    width: 50%;
-    height: 100%;
     background-color: hsl(244, 38%, 16%);
     color: white;
 }
 
-.font h1 {
+#font h1 {
     padding-bottom: 10px;
 }
 
-.font p {
+#font p {
     font-size: 15px;
     font-family:'Lexend Deca';
 }
@@ -43,30 +28,8 @@ body {
     justify-content: space-between;
 }
 
-.H h2 {
-    color: white;
-}
-
-.h2-container {
-    display: flex;
-    flex-direction: column;
-}
-.h2-container span{
-    font-size:x-small;
-}
-
-.h2-container h2 {
-    margin-bottom: 8px;
-}
-
-.fontEle {
-    padding: 30px;
-}
-
-.img {
-    background-image: url('images/image-header-desktop.jpg');
-    background-size: cover;
-    width: 50%;
+#img {
+    width: 100%;
     height: 100%;
     filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-124deg) saturate(500%) contrast(1);
 }
